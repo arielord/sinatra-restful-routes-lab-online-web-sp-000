@@ -17,7 +17,7 @@ class ApplicationController < Sinatra::Base
   end
   
   post '/recipes' do
-    recipe = Recipe.create()
+    recipe = Recipe.create(name: )
   end
   
   get '/recipes/new' do
