@@ -1,7 +1,7 @@
-<form method="post" action="/articles/<%= @article.id %>/edit">
+<form method="post" action="/articles/<%= @recipe.id %>/edit">
   <input id="hidden" type="hidden" name="_method" value="PATCH">
-  Name of dish: <input type='text' name='name' value=<%= @article.name %> >
-  Ingredients: <input type='text' name='ingredients' value=<%= @article.ingredients %> >
-  Cooke time: <input type='text' name='cook_time' value=<%= @article.cook_time %> >
+  Name of dish: <input type='text' name='name' value=<%= @recipe.name %> >
+  Ingredients: <input type='text' name='ingredients' value=<%= @recipe.ingredients %> >
+  Cooke time: <input type='text' name='cook_time' value=<%= @recipe.cook_time %> >
   <input type="submit" name="Submit">
 </form>
