@@ -42,7 +42,7 @@ class ApplicationController < Sinatra::Base
     
     recipe.name = params['name']
     recipe.ingredients = params['ingredients']
-    recipe.cooke_time = params['cook_time']
+    recipe.cook_time = params['cook_time']
     
     recipe.save
     
