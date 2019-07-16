@@ -1,4 +1,4 @@
-<form method="post" action="/articles/<%= @recipe.id %>/edit">
+<form method="post" action="/recipes/<%= @recipe.id %>/edit">
   <input id="hidden" type="hidden" name="_method" value="PATCH">
   Name of dish: <input type='text' name='name' value=<%= @recipe.name %> >
   Ingredients: <input type='text' name='ingredients' value=<%= @recipe.ingredients %> >
