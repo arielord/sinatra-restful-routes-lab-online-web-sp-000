@@ -46,7 +46,7 @@ class ApplicationController < Sinatra::Base
     
     recipe.save
     
-    redirect 'recipe/' + recipe.id.to_s
+    redirect 'recipes/' + recipe.id.to_s
   end
   
 end
